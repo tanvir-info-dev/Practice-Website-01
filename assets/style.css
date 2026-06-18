@@ -310,6 +310,9 @@ header.scrolled{
 .feature_cardbox_wrapper{
   width: 100%;
   margin-top: var(--spacing-xxl);
+  display: flex;
+  flex-direction: column;
+  row-gap: var(--spacing-lg);
 }
 .f_row{
   width: 100%;
@@ -330,6 +333,16 @@ header.scrolled{
   display: flex;
   column-gap: var(--spacing-xl);
 }
+.f_card_3{
+  display: flex;
+  flex-direction: column-reverse;
+}
+.f_card_4{
+  display: flex;
+}
+.f_card_4 .f_card_content{
+  align-self: self-end;
+}
 .f_card_content img{
   width: 44px;
   border-radius: var(--radius-md);
@@ -345,6 +358,9 @@ header.scrolled{
 .f_card_img,
 .f_card_img img{
   width: 100%;
+}
+.f_card_1 .f_card_content p{
+  padding-bottom: var(--spacing-lg);
 }
 .f_card_2 .f_card_content{
   width: 40%;
